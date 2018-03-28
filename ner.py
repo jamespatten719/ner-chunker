@@ -13,7 +13,7 @@ from nltk import word_tokenize, pos_tag, ne_chunk
 
 if __name__ == "__main__":
 
-	sentence = "James Patten wants to join CDV"
+	sentence = "Sarah works for Deloitte"
 	tokens = nltk.word_tokenize(sentence)
 	print("tokens = %s" % tokens)
 
